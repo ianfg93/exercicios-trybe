@@ -19,7 +19,7 @@ console.log(
   "foi eleita a melhor do mundo por",
   [anoMelhor] + " ",
   "vezes"
-);
+);  
 console.log(
   "A jogadora possui " + player.medals["golden"] + " medalhas de ouro e " + player.medals["silver"] + " de prata"
 );
