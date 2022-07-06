@@ -1,3 +1,4 @@
-<a href="www.betrybe.com" target="_blank" id="href">TRYBE</a>
-<input type="text" id="input-text"/>
-<input type="checkbox" id="input-checkbox" />
+// SELETORES
+const INPUT_TEXT = document.querySelector("#input-text");
+const INPUT_CHECKBOX = document.querySelector("#input-checkbox");
+const HREF_LINK = document.querySelector("#href");
