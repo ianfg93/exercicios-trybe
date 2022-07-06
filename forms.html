@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Forms</title>
+</head>
+
+<body>
+  <h1>Formulário</h1>
+  <form action="" method="">
+    <label for="email-valido">E-mail:
+      <input type="email" name="email" id="email-valido" placeholder="Digite seu e-mail" required autocomplete="off"
+        autofocus></label><br><br>
+    <label for="senha-correta">Senha:
+      <input type="password" name="senha" id="senha-correta" placeholder="Digite sua senha" required></label><br><br>
+    <label for="">Estado onde você mora:
+      <select name="Estado" id="input-estado">
+        <option value="mg">Minas Gerais</option>
+        <option value="sp">São Paulo</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="es">Espirito Santo</option>
+      </select>
+    </label>
+    <p>Selecione sua foto</p>
+    <input type="file" name="foto" id="foto-perfil">
+    <br><br>
+    <p>Esporte Favorito</p>
+    <label for="esporte1">
+      <input type="radio" name="esporte" id="esporte1">Futebol
+    </label>
+    <label for="esporte2">
+      <input type="radio" name="esporte" id="esporte2">Volêi
+    </label>
+    <label for="esporte3">
+      <input type="radio" name="esporte" id="esporte3">Basquete
+    </label>
+    <label for="esporte4">
+      <input type="radio" name="esporte" id="esporte4">Peteca
+    </label>
+    <br>
+    <p>Escreva algo sobre você</p>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <p><input type="checkbox" name="lembrar">Lembre-me</p>
+    <p><button type="submit">Entrar</button></p>
+    <br>
+    <a href="www.betrybe.com" target="_blank" id="href">TRYBE</a>
+    <input type="text" id="input-text"/>
+    <input type="checkbox" id="input-checkbox" />
+  </form>
+
+
+  </button>
+  <script src="script-forms.js"></script>
+</body>
+
+</html>
